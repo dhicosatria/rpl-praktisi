@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/dot2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/dot2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="290dp"
+            android:id="@+id/dot1"
+            android:src="@drawable/dot1" />
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:text="KELOMPOK 3"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kls"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="80dp"
+            android:text="TIB 2021"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/univ"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="650dp"
+            android:text="D3 Teknik Informatika Sekolah Vokasi UNS"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/d"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="160dp"
+            android:text="Dean"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/f"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="290dp"
+            android:text="Fitrah"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dc"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="245dp"
+            android:layout_marginLeft="60dp"
+            android:text="Dhico"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nama1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="510dp"
+            android:layout_marginLeft="110dp"
+            android:text="Wijdan"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/m"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="510dp"
+            android:layout_marginLeft="250dp"
+            android:text="Meilinda"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="190dp"
+            android:id="@+id/buttondeandra"
+            android:background="@drawable/deandra" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="270dp"
+            android:id="@+id/buttondhico"
+            android:background="@drawable/dhico" />
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="270dp"
+            android:id="@+id/buttonfitrah"
+            android:background="@drawable/p" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="400dp"
+            android:id="@+id/buttonmeilinda"
+            android:background="@drawable/meilinda" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="400dp"
+            android:id="@+id/buttonwijdan"
+            android:background="@drawable/wijdan" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

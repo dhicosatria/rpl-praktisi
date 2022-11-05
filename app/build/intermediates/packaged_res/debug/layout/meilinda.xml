@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/whatsapp_image_2022_11_01_at_10_21_50" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM : V3421058"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name : Meilinda Dwi Permatasari"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date Birth : Bojonegoro, May 19th 2003"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hoby : Watching Movies"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address : Padangan RT 09 RW 03, Bojonegoro"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Me"
+        android:onClick="cellphone"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Email"
+        android:onClick="email"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Address"
+        android:onClick="showMap"/>
+</LinearLayout>
